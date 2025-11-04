@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 app = Flask(__name__)
 
-genai.configure(api_key="AIzaSyCBbmZmVsjIaAMFufvE-P3eX82HHWxaGsE")
+genai.configure(api_key="")
 
 @app.route("/")
 def home():
